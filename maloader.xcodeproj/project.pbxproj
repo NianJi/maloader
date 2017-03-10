@@ -1,0 +1,186 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		A39A2B8B1E66A1B400FCF399 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		A39A2B8C1E66A1B400FCF399 /* .gdbinit */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gdbinit; sourceTree = "<group>"; };
+		A39A2B8D1E66A1B400FCF399 /* .git */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .git; sourceTree = "<group>"; };
+		A39A2B8E1E66A1B400FCF399 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A39A2B8F1E66A1B400FCF399 /* binfmt_misc.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = binfmt_misc.sh; sourceTree = "<group>"; };
+		A39A2B901E66A1B400FCF399 /* env_flags.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = env_flags.h; sourceTree = "<group>"; };
+		A39A2B911E66A1B400FCF399 /* extract.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = extract.cc; sourceTree = "<group>"; };
+		A39A2B921E66A1B400FCF399 /* fat.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fat.cc; sourceTree = "<group>"; };
+		A39A2B931E66A1B400FCF399 /* fat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fat.h; sourceTree = "<group>"; };
+		A39A2B941E66A1B400FCF399 /* gdb_maloader.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = gdb_maloader.py; sourceTree = "<group>"; };
+		A39A2B951E66A1B400FCF399 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		A39A2B961E66A1B400FCF399 /* ld-mac.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ld-mac.cc"; sourceTree = "<group>"; };
+		A39A2B971E66A1B400FCF399 /* ld-mac.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "ld-mac.sh"; sourceTree = "<group>"; };
+		A39A2B981E66A1B400FCF399 /* libmac */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libmac; sourceTree = "<group>"; };
+		A39A2B991E66A1B400FCF399 /* log.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = log.cc; sourceTree = "<group>"; };
+		A39A2B9A1E66A1B400FCF399 /* log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		A39A2B9B1E66A1B400FCF399 /* mach */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mach; sourceTree = "<group>"; };
+		A39A2B9C1E66A1B400FCF399 /* mach-o.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "mach-o.cc"; sourceTree = "<group>"; };
+		A39A2B9D1E66A1B400FCF399 /* mach-o.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mach-o.h"; sourceTree = "<group>"; };
+		A39A2B9E1E66A1B400FCF399 /* macho2elf.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = macho2elf.cc; sourceTree = "<group>"; };
+		A39A2B9F1E66A1B400FCF399 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A39A2BA01E66A1B400FCF399 /* no_trampoline.tab */ = {isa = PBXFileReference; lastKnownFileType = text; path = no_trampoline.tab; sourceTree = "<group>"; };
+		A39A2BA11E66A1B400FCF399 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		A39A2BA21E66A1B400FCF399 /* rename.tab */ = {isa = PBXFileReference; lastKnownFileType = text; path = rename.tab; sourceTree = "<group>"; };
+		A39A2BA31E66A1B400FCF399 /* runtests.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = runtests.sh; sourceTree = "<group>"; };
+		A39A2BA41E66A1B400FCF399 /* unpack_xcode.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = unpack_xcode.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A39A2B851E66A1B400FCF399 = {
+			isa = PBXGroup;
+			children = (
+				A39A2B8B1E66A1B400FCF399 /* .DS_Store */,
+				A39A2B8C1E66A1B400FCF399 /* .gdbinit */,
+				A39A2B8D1E66A1B400FCF399 /* .git */,
+				A39A2B8E1E66A1B400FCF399 /* .gitignore */,
+				A39A2B8F1E66A1B400FCF399 /* binfmt_misc.sh */,
+				A39A2B901E66A1B400FCF399 /* env_flags.h */,
+				A39A2B911E66A1B400FCF399 /* extract.cc */,
+				A39A2B921E66A1B400FCF399 /* fat.cc */,
+				A39A2B931E66A1B400FCF399 /* fat.h */,
+				A39A2B941E66A1B400FCF399 /* gdb_maloader.py */,
+				A39A2B951E66A1B400FCF399 /* include */,
+				A39A2B961E66A1B400FCF399 /* ld-mac.cc */,
+				A39A2B971E66A1B400FCF399 /* ld-mac.sh */,
+				A39A2B981E66A1B400FCF399 /* libmac */,
+				A39A2B991E66A1B400FCF399 /* log.cc */,
+				A39A2B9A1E66A1B400FCF399 /* log.h */,
+				A39A2B9B1E66A1B400FCF399 /* mach */,
+				A39A2B9C1E66A1B400FCF399 /* mach-o.cc */,
+				A39A2B9D1E66A1B400FCF399 /* mach-o.h */,
+				A39A2B9E1E66A1B400FCF399 /* macho2elf.cc */,
+				A39A2B9F1E66A1B400FCF399 /* Makefile */,
+				A39A2BA01E66A1B400FCF399 /* no_trampoline.tab */,
+				A39A2BA11E66A1B400FCF399 /* README */,
+				A39A2BA21E66A1B400FCF399 /* rename.tab */,
+				A39A2BA31E66A1B400FCF399 /* runtests.sh */,
+				A39A2BA41E66A1B400FCF399 /* unpack_xcode.sh */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A39A2B8A1E66A1B400FCF399 /* maloader */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = A39A2BA51E66A1B400FCF399 /* Build configuration list for PBXLegacyTarget "maloader" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/Luke/Code/ios/github/maloader;
+			dependencies = (
+			);
+			name = maloader;
+			passBuildSettingsInEnvironment = 1;
+			productName = maloader;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		A39A2B861E66A1B400FCF399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = A39A2B891E66A1B400FCF399 /* Build configuration list for PBXProject "maloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A39A2B851E66A1B400FCF399;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A39A2B8A1E66A1B400FCF399 /* maloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		A39A2B871E66A1B400FCF399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		A39A2B881E66A1B400FCF399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		A39A2BA61E66A1B400FCF399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = maloader;
+			};
+			name = Debug;
+		};
+		A39A2BA71E66A1B400FCF399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = maloader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A39A2B891E66A1B400FCF399 /* Build configuration list for PBXProject "maloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39A2B871E66A1B400FCF399 /* Debug */,
+				A39A2B881E66A1B400FCF399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39A2BA51E66A1B400FCF399 /* Build configuration list for PBXLegacyTarget "maloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39A2BA61E66A1B400FCF399 /* Debug */,
+				A39A2BA71E66A1B400FCF399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A39A2B861E66A1B400FCF399 /* Project object */;
+}

@@ -50,6 +50,7 @@ static string getArchName(uint32_t a) {
     return "ppc";
   case CPU_TYPE_POWERPC64:
     return "ppc64";
+    
   default:
     char buf[99];
     sprintf(buf, "??? (%u)", a);
